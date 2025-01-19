@@ -1,0 +1,55 @@
+.title{
+  display:inline-block flex;
+  border:3px solid blue;
+  padding : 20px;
+  border-radius:5px;
+  text-align:center;
+}
+
+.form-container {
+  display: flex; /* Flexbox を有効化 */
+  justify-content: center; /* 子要素を水平方向に中央揃え */
+  align-items: center; /* 子要素を垂直方向に中央揃え */
+  margin: auto;
+  padding:20px;
+  gap: 10px; /* 各要素の間隔を設定 */
+  background-color: #ff9393; /* 背景色 */
+  font-family: Arial, sans-serif; /* フォントを設定 */
+}
+
+label {
+  display: block; 
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px; 
+}
+
+
+.input-box1{
+  width:300px;
+  height: 20px;
+}
+
+.input-box2{
+  cursor:pointer;
+}
+
+.add-button{
+  padding:5px 8px;
+  font-size: 20px;
+  color:rgb(93, 85, 234);
+  background-color:rgb(251, 197, 111);
+  border:none;
+  border-radius:5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transition:transform 0.2s ease;
+}
+
+.add-button:hover{
+  background-color: rgb(171, 252, 222);
+}
+.add-button:active{
+  transform:scale(1.1);
+}
